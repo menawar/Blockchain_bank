@@ -59,7 +59,7 @@ interface UniswapRouter {
     returns (uint256[] memory amounts);
 }
 
-contract SmartBankAccount {
+contract BlockchainBankAccount {
   uint256 totalContractBalance = 0;
 
   address COMPOUND_CETH_ADDRESS = 0x859e9d8a4edadfEDb5A2fF311243af80F85A91b8;
